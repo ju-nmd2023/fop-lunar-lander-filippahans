@@ -155,7 +155,7 @@ function reset() {
   velocity = 0; //Reset the velocity of the fish
 }
 
-//The fish during game
+//The fish during the game
 function Fish() {
   //The sand
   noStroke();
