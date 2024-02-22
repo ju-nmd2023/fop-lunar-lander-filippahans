@@ -19,8 +19,8 @@ function setup() {
 //Generate Bubbles
 for (let i = 0; i < 20; i++) {
   const bubble = {
-    x: Math.floor(Math.random() * width), //The horizontal position of the bubbles
-    y: Math.floor(Math.random() * height), //The vertical position of the bubbles
+    x: Math.floor(Math.random() * 700), //The horizontal position of the bubbles
+    y: Math.floor(Math.random() * 900), //The vertical position of the bubbles
     circle: Math.random() * 0.5, //The size of the bubbles
     alpha: Math.random(), //The transparency of the bubbles
   };
