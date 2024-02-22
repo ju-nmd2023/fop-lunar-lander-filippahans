@@ -10,6 +10,7 @@ let bubbles = []; //Array the bubbles
 let sandY = 660; //The vertical position of the sand
 
 function setup() {
+  createCanvas(700, 900);
   fishY = height / 2.5; //The vertical position of the fish
   velocity = 3; //The velocity of the fish
   gravity = 0.1; //The gravitional force acting
